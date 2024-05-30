@@ -1,0 +1,312 @@
+GCN Mean Squared Error (TPS): 158507.25 Mean Squared Error (Latency): 0.9268614053726196
+GAT Mean Squared Error (TPS): 158505.3125 Mean Squared Error (Latency): 0.9336527585983276
+GIN Mean Squared Error (TPS): 158777.9375 Mean Squared Error (Latency): 0.8897995352745056
+GraphSAGE Mean Squared Error (TPS): 158569.71875 Mean Squared Error (Latency): 0.9723796844482422
+
+***************** IQR(0.25), lr=0.01 *******************
+Model name: GCN
+Mean Squared Error (TPS): 30766.634765625
+Mean Squared Error (Latency): 0.9014252424240112
+Model name: GAT
+Mean Squared Error (TPS): 160092.140625
+Mean Squared Error (Latency): 0.920673668384552
+Model name: GIN
+Mean Squared Error (TPS): 156264.953125
+Mean Squared Error (Latency): 0.8857344388961792
+Model name: GraphSAGE
+Mean Squared Error (TPS): 159781.75
+Mean Squared Error (Latency): 0.853421151638031
+
+***************** IQR(0.3), lr=0.001 *******************
+Model name: GCN
+Mean Squared Error (TPS): 40571.3046875
+Mean Squared Error (Latency): 0.908494234085083
+Model name: GAT
+Mean Squared Error (TPS): 49455.4921875
+Mean Squared Error (Latency): 0.860948383808136
+Model name: GIN
+Mean Squared Error (TPS): 159306.984375
+Mean Squared Error (Latency): 0.8964940309524536
+Model name: GraphSAGE
+Mean Squared Error (TPS): 33549.62890625
+Mean Squared Error (Latency): 0.8836252093315125
+
+***************** IQR(0.4), lr=0.001 *******************
+Model name: GCN
+Mean Squared Error (TPS): 17643.755859375
+Mean Squared Error (Latency): 0.598203182220459
+Model name: GAT
+Mean Squared Error (TPS): 21038.66796875
+Mean Squared Error (Latency): 0.5782124996185303
+Model name: GIN
+Mean Squared Error (TPS): 123019.203125
+Mean Squared Error (Latency): 0.5942034125328064
+Model name: GraphSAGE
+Mean Squared Error (TPS): 30157.3046875
+Mean Squared Error (Latency): 0.5942167639732361
+
+***************** IQR(0.4), lr=0.001 ******************* data 수정
+Model name: GCN
+Mean Squared Error (TPS): 19503.83203125
+Mean Squared Error (Latency): 0.563344419002533
+Model name: GAT
+Mean Squared Error (TPS): 19482.296875
+Mean Squared Error (Latency): 0.583493173122406
+Model name: GIN
+Mean Squared Error (TPS): 123101.046875
+Mean Squared Error (Latency): 0.5920471549034119
+Model name: GraphSAGE
+Mean Squared Error (TPS): 105901.8984375
+Mean Squared Error (Latency): 0.583537757396698
+
+***************** IQR(0.4), lr=0.001 ******************* early stopping
+
+Model name: GCN
+Mean Squared Error (TPS): 18674.603515625
+Mean Squared Error (Latency): 0.5897511839866638
+Model name: GAT
+Mean Squared Error (TPS): 21149.884765625
+Mean Squared Error (Latency): 0.5797006487846375
+Model name: GIN
+Mean Squared Error (TPS): 123938.59375
+Mean Squared Error (Latency): 0.601709246635437
+Model name: GraphSAGE
+Mean Squared Error (TPS): 17773.345703125
+Mean Squared Error (Latency): 0.5714048743247986
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping
+Model name: GCN
+Mean Squared Error (TPS): 5984.21435546875
+Mean Squared Error (Latency): 0.41867169737815857
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping + Normalization
+
+Model name: GCN
+Mean Squared Error (TPS): 4297.97021484375
+Mean Squared Error (Latency): 0.39294669032096863
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping(p=7) + Normalization
+
+Model name: GCN
+Mean Squared Error (TPS): 17972.8671875
+Mean Squared Error (Latency): 0.3991721570491791
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping(p=7) + Normalization + hidden_dim(=256)
+Model name: GCN
+Mean Squared Error (TPS): 125911.546875
+Mean Squared Error (Latency): 0.4128546118736267
+Model name: GAT
+Mean Squared Error (TPS): 3827.23583984375
+Mean Squared Error (Latency): 0.399443119764328
+Model name: GIN
+Mean Squared Error (TPS): 3750.75439453125
+Mean Squared Error (Latency): 0.41445380449295044
+Model name: GraphSAGE
+Mean Squared Error (TPS): 3735.42578125
+Mean Squared Error (Latency): 0.41982486844062805
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping(p=7) + Normalization + hidden_dim(=256) + batch(=2)
+Model name: GCN
+Mean Squared Error (TPS): 125167.32262446923
+Mean Squared Error (Latency): 0.09253497151804346
+Model name: GCN
+Mean Squared Error (TPS): 4495.667934127766
+Mean Squared Error (Latency): 0.14971607310128693
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping(p=7) + Normalization + hidden_dim(=256) + batch(=2) + LeakyRelu
+Model name: GCN
+Mean Squared Error (TPS): 4294.475344263726
+Mean Squared Error (Latency): 0.10448029633118579
+
+***************** IQR(0.3)/18920, lr=0.001 ******************* early stopping(p=7) + Normalization + hidden_dim(=128) + batch(=2) + LeakyRelu
+Model name: GCN
+Mean Squared Error (TPS): 30549.52852165604
+Mean Squared Error (Latency): 0.4667587331213456
+Model name: GAT
+Mean Squared Error (TPS): 30708.102005083147
+Mean Squared Error (Latency): 0.967972427192151
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping(p=7) + Normalization + hidden_dim(=128) + batch(=4)
+Model name: GCN
+Mean Squared Error (TPS): 2506.0380312939515
+Mean Squared Error (Latency): 0.17701754012392112
+Model name: GAT
+Mean Squared Error (TPS): 2010.580088946736
+Mean Squared Error (Latency): 0.4216959282434604
+Model name: GIN
+Mean Squared Error (TPS): 1886.8321438532528
+Mean Squared Error (Latency): 0.1369208805896373
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping(p=7) + Normalization + hidden_dim(=128) + batch(=8)
+Model name: GCN
+Mean Squared Error (TPS): 2677.132593993954
+Mean Squared Error (Latency): 0.09830061022779153
+Mean Absolute Error (TPS): 43.63719985878836
+Mean Absolute Error (Latency): 0.24948165443355722
+Mean Absolute Percentage Error (TPS): 12.584193324265899
+Mean Absolute Percentage Error (Latency): 65.117364788883
+Model name: GAT
+Mean Squared Error (TPS): 2004.9921907965531
+Mean Squared Error (Latency): 0.3876885296355816
+Mean Absolute Error (TPS): 38.681041212133835
+Mean Absolute Error (Latency): 0.5460901994745377
+Mean Absolute Percentage Error (TPS): 11.06814498558919
+Mean Absolute Percentage Error (Latency): 100.70260376080194
+Model name: GIN
+Mean Squared Error (TPS): 1900.4977037372446
+Mean Squared Error (Latency): 0.10270696827779399
+Mean Absolute Error (TPS): 38.20170191714638
+Mean Absolute Error (Latency): 0.23297829936831485
+Mean Absolute Percentage Error (TPS): 11.191605805524409
+Mean Absolute Percentage Error (Latency): 51.767982592331606
+Model name: GraphSAGE
+Mean Squared Error (TPS): 1967.375149222429
+Mean Squared Error (Latency): 0.14096088557250178
+Mean Absolute Error (TPS): 38.784529559625256
+Mean Absolute Error (Latency): 0.26771043732545985
+Mean Absolute Percentage Error (TPS): 11.410730617590392
+Mean Absolute Percentage Error (Latency): 43.71588561028056
+
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping(p=7) + Normalization + hidden_dim(=256) + batch(=4)
+Model name: GCN
+Mean Squared Error (TPS): 2837.5444670958705
+Mean Squared Error (Latency): 0.09192341331789407
+Mean Absolute Error (TPS): 44.33078806023849
+Mean Absolute Error (Latency): 0.2515528476754788
+Mean Absolute Percentage Error (TPS): 12.526864558930445
+Mean Absolute Percentage Error (Latency): 67.11611009245965
+Model name: GAT
+Mean Squared Error (TPS): 1952.793968182167
+Mean Squared Error (Latency): 0.4313970860997878
+Mean Absolute Error (TPS): 37.59726145998752
+Mean Absolute Error (Latency): 0.5838866442485886
+Mean Absolute Percentage Error (TPS): 10.674160050883495
+Mean Absolute Percentage Error (Latency): 106.0622330564391
+Model name: GIN
+Mean Squared Error (TPS): 1878.6171905474878
+Mean Squared Error (Latency): 0.08869887936338282
+Mean Absolute Error (TPS): 37.84769277693788
+Mean Absolute Error (Latency): 0.22873099134751543
+Mean Absolute Percentage Error (TPS): 10.971177365088037
+Mean Absolute Percentage Error (Latency): 57.54689574600884
+Model name: GraphSAGE
+Mean Squared Error (TPS): 1893.9964147001165
+Mean Squared Error (Latency): 0.23208363089878886
+Mean Absolute Error (TPS): 37.907574357657595
+Mean Absolute Error (Latency): 0.37634487293981533
+Mean Absolute Percentage Error (TPS): 11.139848850977614
+Mean Absolute Percentage Error (Latency): 62.068274596417375
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping(p=7) + Normalization + hidden_dim(=256) + batch(=8)
+Model name: GCN
+Mean Squared Error (TPS): 2601.4688674972954
+Mean Squared Error (Latency): 0.08844629411392793
+Mean Absolute Error (TPS): 42.17458563664431
+Mean Absolute Error (Latency): 0.22421951848885108
+Mean Absolute Percentage Error (TPS): 12.009422124155554
+Mean Absolute Percentage Error (Latency): 50.95664778054174
+Model name: GAT
+Mean Squared Error (TPS): 1890.9534302565232
+Mean Squared Error (Latency): 0.4098215940401139
+Mean Absolute Error (TPS): 37.53671533269588
+Mean Absolute Error (Latency): 0.5633603209134626
+Mean Absolute Percentage Error (TPS): 10.848029856290726
+Mean Absolute Percentage Error (Latency): 100.94389178488407
+Model name: GIN
+Mean Squared Error (TPS): 1873.236854731991
+Mean Squared Error (Latency): 0.10879993238147115
+Mean Absolute Error (TPS): 37.71105314555921
+Mean Absolute Error (Latency): 0.2787496744369422
+Mean Absolute Percentage Error (TPS): 11.013522544971737
+Mean Absolute Percentage Error (Latency): 77.8665807167325
+Model name: GraphSAGE
+Mean Squared Error (TPS): 1897.407800133706
+Mean Squared Error (Latency): 0.11117117613734112
+Mean Absolute Error (TPS): 37.6329004249642
+Mean Absolute Error (Latency): 0.2741270042726003
+Mean Absolute Percentage Error (TPS): 10.860924061406536
+Mean Absolute Percentage Error (Latency): 75.8287691171667
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping(p=5) + Normalization + hidden_dim(=256) + batch(=8)
+Model name: GCN
+Mean Squared Error (TPS): 2668.616590499685
+Mean Squared Error (Latency): 0.11047690275211093
+Mean Absolute Error (TPS): 43.444881487671566
+Mean Absolute Error (Latency): 0.2796962114216628
+Mean Absolute Percentage Error (TPS): 12.42003332921429
+Mean Absolute Percentage Error (Latency): 79.93671379908596
+Model name: GAT
+Mean Squared Error (TPS): 2161.453895891543
+Mean Squared Error (Latency): 0.37924792396946194
+Mean Absolute Error (TPS): 39.67719425263725
+Mean Absolute Error (Latency): 0.5437850053591177
+Mean Absolute Percentage Error (TPS): 11.133944079622497
+Mean Absolute Percentage Error (Latency): 102.49599517675856
+Model name: GIN
+Mean Squared Error (TPS): 1973.5006241760134
+Mean Squared Error (Latency): 0.11711707506620407
+Mean Absolute Error (TPS): 38.832702304403924
+Mean Absolute Error (Latency): 0.25805788652018197
+Mean Absolute Percentage Error (TPS): 11.22065861520206
+Mean Absolute Percentage Error (Latency): 62.213975189962426
+Model name: GraphSAGE
+Mean Squared Error (TPS): 1848.4064901723668
+Mean Squared Error (Latency): 0.09403434983668527
+Mean Absolute Error (TPS): 37.46567085390731
+Mean Absolute Error (Latency): 0.2493854705548546
+Mean Absolute Percentage Error (TPS): 10.969133318502989
+Mean Absolute Percentage Error (Latency): 65.65040234465953
+
+***************** IQR(0.45), lr=0.001 ******************* early stopping(p=8) + Normalization + hidden_dim(=256) + batch(=8)
+
+Model name: GCN
+Mean Squared Error (TPS): 2755.1652142819644
+Mean Squared Error (Latency): 0.11330952175127383
+Mean Absolute Error (TPS): 44.291558599731665
+Mean Absolute Error (Latency): 0.24125834012204636
+Mean Absolute Percentage Error (TPS): 12.979013408373765
+Mean Absolute Percentage Error (Latency): 51.11889636788557
+Model name: GAT
+Mean Squared Error (TPS): 1941.0903039040836
+Mean Squared Error (Latency): 0.4373892324928202
+Mean Absolute Error (TPS): 37.792610486925405
+Mean Absolute Error (Latency): 0.5825147577848779
+Mean Absolute Percentage Error (TPS): 10.741010558477528
+Mean Absolute Percentage Error (Latency): 103.38349890640185
+Model name: GIN
+Mean Squared Error (TPS): 1863.7992492363858
+Mean Squared Error (Latency): 0.1174922081184997
+Mean Absolute Error (TPS): 37.17332505574027
+Mean Absolute Error (Latency): 0.29849858554975955
+Mean Absolute Percentage Error (TPS): 10.741419780634374
+Mean Absolute Percentage Error (Latency): 85.26034447081736
+Model name: GraphSAGE
+Mean Squared Error (TPS): 2018.2892880378613
+Mean Squared Error (Latency): 0.08780047354227856
+Mean Absolute Error (TPS): 39.39184240766965
+Mean Absolute Error (Latency): 0.22327245250614716
+Mean Absolute Percentage Error (TPS): 11.500391039944576
+Mean Absolute Percentage Error (Latency): 53.260326273437464
+
+***************** IQR(0.45), lr=0.001 ******************* ML
+Model name: LR
+Mean Squared Error (TPS): 1368.1233289477027
+Mean Absolute Error (TPS): 30.275998506824237
+Mean Absolute Percentage Error (TPS): 8.62378622733556
+Model name: RF
+Mean Squared Error (TPS): 1384.496228934226
+Mean Absolute Error (TPS): 29.103029617146312
+Mean Absolute Percentage Error (TPS): 8.307327035321183
+Model name: DT
+Mean Squared Error (TPS): 1602.603186811328
+Mean Absolute Error (TPS): 30.818173011672304
+Mean Absolute Percentage Error (TPS): 8.821720615273652
+Model name: SVM
+Mean Squared Error (TPS): 2012.735912296444
+Mean Absolute Error (TPS): 37.86153584352178
+Mean Absolute Percentage Error (TPS): 10.96049187891626
+Model name: KNN
+Mean Squared Error (TPS): 1624.9121002218192
+Mean Absolute Error (TPS): 31.102510586811857
+Mean Absolute Percentage Error (TPS): 8.921408939095251
